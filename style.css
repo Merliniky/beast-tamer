@@ -1,0 +1,22 @@
+*{box-sizing:border-box;margin:0;padding:0}html,body{width:100%;height:100%;overflow:hidden;background:#111;font-family:"PingFang SC","Noto Sans CJK SC",sans-serif;color:#fff;touch-action:none;user-select:none;-webkit-user-select:none}
+canvas{display:block;width:100vw;height:100vh;image-rendering:pixelated}
+.hidden{display:none!important}
+#hud{position:fixed;inset:0;pointer-events:none;padding:max(8px,env(safe-area-inset-top)) 10px 0}
+#hpbar{position:relative;width:min(46vw,220px);height:16px;background:#311;border:2px solid #000;border-radius:3px}
+#hpfill{height:100%;background:linear-gradient(#f55,#b22);width:100%}#hptext{position:absolute;inset:0;font-size:11px;text-align:center;line-height:12px;text-shadow:1px 1px #000}
+#timer{position:absolute;top:max(6px,env(safe-area-inset-top));left:50%;transform:translateX(-50%);font-size:22px;font-weight:bold;text-shadow:2px 2px #000}
+#kills{margin-top:4px;font-size:13px;text-shadow:1px 1px #000}
+#teamBtn{pointer-events:auto;position:absolute;right:10px;top:max(8px,env(safe-area-inset-top));background:#2a3b2a;color:#fff;border:2px solid #9c6;border-radius:6px;padding:6px 10px;font-size:14px}
+.ov{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(10,12,16,.82);gap:10px;padding:16px;text-align:center}
+h1{font-size:34px;letter-spacing:4px;color:#ffd76a;text-shadow:3px 3px #000}.sub,.tip{font-size:13px;color:#bbb}
+#lines{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.line{width:104px;background:#1d2430;border:2px solid #456;border-radius:8px;padding:8px 4px;color:#fff;font-size:15px}
+.line img{width:72px;height:72px;object-fit:contain;image-rendering:pixelated;display:block;margin:0 auto 4px}.line small{display:block;color:#9ab;font-size:11px;margin-top:2px}
+.line:active,.line:hover{border-color:#ffd76a}
+.pbox{width:min(94vw,440px);max-height:80vh;overflow:auto;background:#1a1f28;border:2px solid #567;border-radius:8px;text-align:left}
+.phead{display:flex;justify-content:space-between;padding:8px 12px;border-bottom:1px solid #345;position:sticky;top:0;background:#1a1f28}
+.phead button,#again{background:#334;color:#fff;border:1px solid #889;border-radius:4px;padding:4px 12px;font-size:16px}
+.comp{display:flex;gap:8px;padding:8px 10px;border-bottom:1px solid #2a3340}
+.comp img{width:56px;height:56px;object-fit:contain;image-rendering:pixelated;flex:none}
+.comp .n{font-weight:bold;color:#ffd76a}.comp .p{font-size:12px;color:#cde;line-height:1.5}.comp .h{font-size:11px;color:#9c9}
+.mut{color:#f9a}

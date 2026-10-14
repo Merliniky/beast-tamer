@@ -1,0 +1,277 @@
+{
+ "wolf_t1": {
+  "file": "wolf_t1.png",
+  "w": 34,
+  "h": 40,
+  "sheet": "wolf_t1_t2.jpg"
+ },
+ "wolf_raptor": {
+  "file": "wolf_raptor.png",
+  "w": 41,
+  "h": 48,
+  "sheet": "wolf_t1_t2.jpg"
+ },
+ "wolf_frost": {
+  "file": "wolf_frost.png",
+  "w": 35,
+  "h": 48,
+  "sheet": "wolf_t1_t2.jpg"
+ },
+ "wolf_flame": {
+  "file": "wolf_flame.png",
+  "w": 36,
+  "h": 48,
+  "sheet": "wolf_t1_t2.jpg"
+ },
+ "wolf_shadow": {
+  "file": "wolf_shadow.png",
+  "w": 35,
+  "h": 48,
+  "sheet": "wolf_t1_t2.jpg"
+ },
+ "wolf_thunder": {
+  "file": "wolf_thunder.png",
+  "w": 33,
+  "h": 48,
+  "sheet": "wolf_t1_t2.jpg"
+ },
+ "bear_t1": {
+  "file": "bear_t1.png",
+  "w": 42,
+  "h": 39,
+  "sheet": "bear_eagle_t1_t2.jpg"
+ },
+ "bear_armor": {
+  "file": "bear_armor.png",
+  "w": 50,
+  "h": 46,
+  "sheet": "bear_eagle_t1_t2.jpg"
+ },
+ "bear_horn": {
+  "file": "bear_horn.png",
+  "w": 47,
+  "h": 50,
+  "sheet": "bear_eagle_t1_t2.jpg"
+ },
+ "bear_ice": {
+  "file": "bear_ice.png",
+  "w": 44,
+  "h": 50,
+  "sheet": "bear_eagle_t1_t2.jpg"
+ },
+ "bear_flame": {
+  "file": "bear_flame.png",
+  "w": 39,
+  "h": 50,
+  "sheet": "bear_eagle_t1_t2.jpg"
+ },
+ "bear_rage": {
+  "file": "bear_rage.png",
+  "w": 50,
+  "h": 45,
+  "sheet": "bear_eagle_t1_t2.jpg"
+ },
+ "eagle_t1": {
+  "file": "eagle_t1.png",
+  "w": 30,
+  "h": 40,
+  "sheet": "bear_eagle_t1_t2.jpg"
+ },
+ "eagle_wind": {
+  "file": "eagle_wind.png",
+  "w": 42,
+  "h": 48,
+  "sheet": "bear_eagle_t1_t2.jpg"
+ },
+ "eagle_thunder": {
+  "file": "eagle_thunder.png",
+  "w": 38,
+  "h": 48,
+  "sheet": "bear_eagle_t1_t2.jpg"
+ },
+ "eagle_fire": {
+  "file": "eagle_fire.png",
+  "w": 38,
+  "h": 48,
+  "sheet": "bear_eagle_t1_t2.jpg"
+ },
+ "eagle_night": {
+  "file": "eagle_night.png",
+  "w": 37,
+  "h": 48,
+  "sheet": "bear_eagle_t1_t2.jpg"
+ },
+ "eagle_water": {
+  "file": "eagle_water.png",
+  "w": 38,
+  "h": 48,
+  "sheet": "bear_eagle_t1_t2.jpg"
+ },
+ "hero_0": {
+  "file": "hero_0.png",
+  "w": 31,
+  "h": 40,
+  "sheet": "hero_enemies.jpg"
+ },
+ "hero_1": {
+  "file": "hero_1.png",
+  "w": 33,
+  "h": 40,
+  "sheet": "hero_enemies.jpg"
+ },
+ "hero_2": {
+  "file": "hero_2.png",
+  "w": 31,
+  "h": 40,
+  "sheet": "hero_enemies.jpg"
+ },
+ "hero_3": {
+  "file": "hero_3.png",
+  "w": 32,
+  "h": 40,
+  "sheet": "hero_enemies.jpg"
+ },
+ "slime": {
+  "file": "slime.png",
+  "w": 26,
+  "h": 20,
+  "sheet": "hero_enemies.jpg"
+ },
+ "bat": {
+  "file": "bat.png",
+  "w": 32,
+  "h": 16,
+  "sheet": "hero_enemies.jpg"
+ },
+ "mushroom": {
+  "file": "mushroom.png",
+  "w": 26,
+  "h": 26,
+  "sheet": "hero_enemies.jpg"
+ },
+ "goblin": {
+  "file": "goblin.png",
+  "w": 32,
+  "h": 26,
+  "sheet": "hero_enemies.jpg"
+ },
+ "skeleton": {
+  "file": "skeleton.png",
+  "w": 23,
+  "h": 32,
+  "sheet": "hero_enemies.jpg"
+ },
+ "beetle": {
+  "file": "beetle.png",
+  "w": 34,
+  "h": 26,
+  "sheet": "hero_enemies.jpg"
+ },
+ "wisp": {
+  "file": "wisp.png",
+  "w": 17,
+  "h": 28,
+  "sheet": "hero_enemies.jpg"
+ },
+ "golem": {
+  "file": "golem.png",
+  "w": 60,
+  "h": 58,
+  "sheet": "hero_enemies.jpg"
+ },
+ "velociraptor": {
+  "file": "velociraptor.png",
+  "w": 64,
+  "h": 39,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "ninetail": {
+  "file": "ninetail.png",
+  "w": 68,
+  "h": 48,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "head_gray": {
+  "file": "head_gray.png",
+  "w": 22,
+  "h": 24,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "head_frost": {
+  "file": "head_frost.png",
+  "w": 22,
+  "h": 24,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "head_flame": {
+  "file": "head_flame.png",
+  "w": 22,
+  "h": 24,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "leg_l": {
+  "file": "leg_l.png",
+  "w": 8,
+  "h": 18,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "leg_r": {
+  "file": "leg_r.png",
+  "w": 9,
+  "h": 18,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "raptor_claw_l": {
+  "file": "raptor_claw_l.png",
+  "w": 11,
+  "h": 18,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "raptor_claw_r": {
+  "file": "raptor_claw_r.png",
+  "w": 12,
+  "h": 18,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "ice_claw_l": {
+  "file": "ice_claw_l.png",
+  "w": 9,
+  "h": 18,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "ice_claw_r": {
+  "file": "ice_claw_r.png",
+  "w": 9,
+  "h": 18,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "tail_raptor": {
+  "file": "tail_raptor.png",
+  "w": 30,
+  "h": 8,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "tail_croc": {
+  "file": "tail_croc.png",
+  "w": 30,
+  "h": 10,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "tail_wolf": {
+  "file": "tail_wolf.png",
+  "w": 24,
+  "h": 12,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "tail_long": {
+  "file": "tail_long.png",
+  "w": 40,
+  "h": 8,
+  "sheet": "wolf_t4_parts.jpg"
+ },
+ "ground": {
+  "file": "ground.png",
+  "w": 128,
+  "h": 128
+ }
+}
