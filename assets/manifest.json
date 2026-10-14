@@ -273,5 +273,85 @@
   "file": "ground.png",
   "w": 64,
   "h": 64
+ },
+ "hero_d0": {
+  "file": "hero_d0.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_d1": {
+  "file": "hero_d1.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_d2": {
+  "file": "hero_d2.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_d3": {
+  "file": "hero_d3.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_l0": {
+  "file": "hero_l0.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_l1": {
+  "file": "hero_l1.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_l2": {
+  "file": "hero_l2.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_l3": {
+  "file": "hero_l3.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_r0": {
+  "file": "hero_r0.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_r1": {
+  "file": "hero_r1.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_r2": {
+  "file": "hero_r2.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_r3": {
+  "file": "hero_r3.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_u0": {
+  "file": "hero_u0.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_u1": {
+  "file": "hero_u1.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_u2": {
+  "file": "hero_u2.png",
+  "w": 32,
+  "h": 30
+ },
+ "hero_u3": {
+  "file": "hero_u3.png",
+  "w": 32,
+  "h": 30
  }
 }

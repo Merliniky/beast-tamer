@@ -32,3 +32,6 @@ h2{font-size:22px;color:#ffd76a;text-shadow:2px 2px #000}
 .card.evo{border-color:#ffd76a;background:#2b2a1a}.card.part{border-color:#c7a}.card.hero{border-color:#5a8}
 .card:active,.card:hover{transform:scale(1.02);border-color:#fff}
 .tag{font-size:10px;padding:1px 5px;border-radius:3px;background:#345;margin-left:4px}
+
+#muteBtn{pointer-events:auto;position:absolute;right:10px;top:calc(max(8px,env(safe-area-inset-top)) + 34px);background:#2a2a33;color:#fff;border:1px solid #667;border-radius:6px;padding:2px 8px;font-size:14px}
+#hpbar{height:18px;width:min(44vw,200px)}#hptext{font-size:12px;line-height:14px}#timer{font-size:18px}#kills{font-size:13px}#goal{top:calc(max(8px,env(safe-area-inset-top)) + 64px);font-size:12px}

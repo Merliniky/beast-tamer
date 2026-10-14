@@ -31,7 +31,7 @@ const LINES={
 };
 const EL_COLOR={"无":"#fff","风":"#9f9","冰":"#8df","火":"#f84","暗":"#b6f","雷":"#ff6","土":"#cb8","水":"#6cf"};
 const ENEMIES={
- slime:{hp:10,spd:29,dmg:5,r:9,xp:1},bat:{hp:7,spd:59,dmg:4,r:9,xp:1,fly:1},mushroom:{hp:18,spd:27,dmg:6,r:9,xp:2},
- goblin:{hp:28,spd:48,dmg:8,r:11,xp:2},skeleton:{hp:38,spd:41,dmg:9,r:11,xp:3},beetle:{hp:70,spd:32,dmg:11,r:13,xp:4,armor:.3},
- wisp:{hp:24,spd:55,dmg:7,r:9,xp:3,fly:1},golem:{hp:900,spd:36,dmg:20,r:26,xp:30,elite:1}
+ slime:{w:.8,hp:10,spd:29,dmg:5,r:9,xp:1},bat:{w:.6,hp:7,spd:59,dmg:4,r:9,xp:1,fly:1},mushroom:{w:1,hp:18,spd:27,dmg:6,r:9,xp:2},
+ goblin:{w:1.2,charge:1,hp:28,spd:48,dmg:8,r:11,xp:2},skeleton:{w:1.2,hp:38,spd:41,dmg:9,r:11,xp:3},beetle:{w:2,hp:70,spd:32,dmg:11,r:13,xp:4,armor:.3},
+ wisp:{w:.7,hp:24,spd:55,dmg:7,r:9,xp:3,fly:1},golem:{w:5,hp:900,spd:36,dmg:20,r:26,xp:30,elite:1}
 };
