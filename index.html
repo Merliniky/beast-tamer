@@ -3,9 +3,10 @@
 <link rel="icon" href="data:,"><title>Beast Tamer · 驯兽师</title><link rel="stylesheet" href="style.css"></head><body>
 <canvas id="c"></canvas>
 <div id="hud" class="hidden"><div id="hpbar"><div id="hpfill"></div><span id="hptext"></span></div>
-<div id="timer">10:00</div><div id="kills">击杀 0</div><button id="teamBtn">伙伴 1</button></div>
+<div id="timer">第1波</div><div id="kills">击杀 0</div><button id="teamBtn">伙伴</button><div id="goal"></div></div>
+<div id="cards" class="ov hidden"><h2 id="cardT"></h2><p id="cardS" class="sub"></p><div id="clist"></div></div>
 <div id="title" class="ov"><h1>驯兽师</h1><p class="sub">选择你的伙伴系 · 只需移动，伙伴自动战斗</p>
-<div id="lines"></div><p class="tip">拖动屏幕 / WASD 移动 · 坚持 10 分钟获胜</p></div>
-<div id="panel" class="ov hidden"><div class="pbox"><div class="phead"><b>伙伴</b><button id="closeP">✕</button></div><div id="plist"></div></div></div>
+<div id="lines"></div><p class="tip">拖动屏幕 / WASD 移动 · 撑过 8 波获胜 · 波间选择强化</p></div>
+<div id="panel" class="ov hidden"><div class="pbox"><div class="phead"><b>我的伙伴</b><button id="closeP">✕</button></div><div id="plist"></div></div></div>
 <div id="end" class="ov hidden"><h1 id="endT"></h1><p id="endS"></p><button id="again">再来一局</button></div>
 <script src="data.js"></script><script src="game.js"></script></body></html>

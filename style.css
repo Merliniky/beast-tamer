@@ -20,3 +20,15 @@ h1{font-size:34px;letter-spacing:4px;color:#ffd76a;text-shadow:3px 3px #000}.sub
 .comp img{width:56px;height:56px;object-fit:contain;image-rendering:pixelated;flex:none}
 .comp .n{font-weight:bold;color:#ffd76a}.comp .p{font-size:12px;color:#cde;line-height:1.5}.comp .h{font-size:11px;color:#9c9}
 .mut{color:#f9a}
+
+#goal{position:absolute;left:10px;right:10px;bottom:max(10px,env(safe-area-inset-bottom));text-align:center;font-size:12px;color:#ffe9a0;text-shadow:1px 1px #000}
+#teamBtn{font-size:12px;padding:4px 8px}
+h2{font-size:22px;color:#ffd76a;text-shadow:2px 2px #000}
+#clist{display:flex;flex-direction:column;gap:8px;width:min(92vw,420px)}
+@media (min-aspect-ratio:1/1){#clist{flex-direction:row;width:min(92vw,720px)}}
+.card{flex:1;display:flex;gap:10px;align-items:center;text-align:left;background:#1d2430;border:2px solid #456;border-radius:8px;padding:8px 10px;color:#fff}
+.card img{width:40px;height:40px;object-fit:contain;image-rendering:pixelated;flex:none}
+.card b{display:block;font-size:14px;color:#ffd76a}.card span{font-size:12px;color:#cde}
+.card.evo{border-color:#ffd76a;background:#2b2a1a}.card.part{border-color:#c7a}.card.hero{border-color:#5a8}
+.card:active,.card:hover{transform:scale(1.02);border-color:#fff}
+.tag{font-size:10px;padding:1px 5px;border-radius:3px;background:#345;margin-left:4px}

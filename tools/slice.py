@@ -3,12 +3,12 @@ from PIL import Image
 from scipy import ndimage as nd
 S="/workspace/beast-design/sheets/"; O="/workspace/beast-tamer/assets/"
 SHEETS={
- "wolf_t1_t2.jpg":[("wolf_t1",40),("wolf_raptor",48),("wolf_frost",48),("wolf_flame",48),("wolf_shadow",48),("wolf_thunder",48)],
- "bear_eagle_t1_t2.jpg":[("bear_t1",42),("bear_armor",50),("bear_horn",50),("bear_ice",50),("bear_flame",50),("bear_rage",50),
-   ("eagle_t1",40),("eagle_wind",48),("eagle_thunder",48),("eagle_fire",48),("eagle_night",48),("eagle_water",48)],
- "hero_enemies.jpg":[("hero_0",40),("hero_1",40),("hero_2",40),("hero_3",40),("slime",26),("bat",32),("mushroom",26),("goblin",32),
-   ("skeleton",32),("beetle",34),("wisp",28),("golem",60)],
- "wolf_t4_parts.jpg":[("velociraptor",64),("ninetail",68),("head_gray",24),("head_frost",24),("head_flame",24),("leg_l",18),("leg_r",18),
+ "wolf_t1_t2.jpg":[("wolf_t1",24),("wolf_raptor",29),("wolf_frost",29),("wolf_flame",29),("wolf_shadow",29),("wolf_thunder",29)],
+ "bear_eagle_t1_t2.jpg":[("bear_t1",24),("bear_armor",29),("bear_horn",29),("bear_ice",29),("bear_flame",29),("bear_rage",29),
+   ("eagle_t1",24),("eagle_wind",29),("eagle_thunder",29),("eagle_fire",29),("eagle_night",29),("eagle_water",29)],
+ "hero_enemies.jpg":[("hero_0",26),("hero_1",26),("hero_2",26),("hero_3",26),("slime",15),("bat",18),("mushroom",15),("goblin",20),
+   ("skeleton",20),("beetle",22),("wisp",17),("golem",40)],
+ "wolf_t4_parts.jpg":[("velociraptor",34),("ninetail",34),("head_gray",24),("head_frost",24),("head_flame",24),("leg_l",18),("leg_r",18),
    ("raptor_claw_l",18),("raptor_claw_r",18),("ice_claw_l",18),("ice_claw_r",18),("tail_raptor",30),("tail_croc",30),("tail_wolf",24),("tail_long",40)],
 }
 man={}
@@ -49,8 +49,8 @@ for f,names in SHEETS.items():
     rgb=im.convert("RGB").resize((W,H),Image.BOX); al=im.getchannel("A").resize((W,H),Image.BOX).point(lambda v:255 if v>110 else 0)
     q=rgb.quantize(24,method=Image.MEDIANCUT).convert("RGBA"); q.putalpha(al)
     q.save(O+nm+".png"); man[nm]={"file":nm+".png","w":W,"h":H,"sheet":f}
-g=Image.open(S+"ground.jpg").convert("RGB").crop((384,104,896,616)).resize((128,128),Image.BOX).quantize(16).convert("RGB")
-g.save(O+"ground.png"); man["ground"]={"file":"ground.png","w":128,"h":128}
+g=Image.open(S+"ground.jpg").convert("RGB").crop((384,104,896,616)).resize((64,64),Image.BOX).quantize(16).convert("RGB")
+g.save(O+"ground.png"); man["ground"]={"file":"ground.png","w":64,"h":64}
 json.dump(man,open(O+"manifest.json","w"),indent=1)
 # 预览拼图
 names=list(man); cols=8; cell=80
